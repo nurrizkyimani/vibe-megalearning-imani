@@ -29,13 +29,18 @@ verbal yang sering muncul di Tes Bakat Skolastik.
 
 ---
 
-## Detailed Topic Offset
+## Grind Plan
 
-Detail penjelasan per nomor saat ini sudah dibuat sampai:
+| Urutan | Fokus | Target | Output |
+| --- | --- | --- | --- |
+| 01-04 | Kata dan relasi | Nomor 01-04 | Catatan pola relasi dan kosakata yang salah |
+| 05-10 | Bacaan dan argumen | Nomor 05-10 | Catatan jenis jebakan pilihan jawaban |
 
-```text
-01 -> 10
-```
+Aturan waktu:
+
+- Nomor 01-04: 60-90 detik per soal.
+- Nomor 05-10: 2-3 menit per soal.
+- Review wajib lebih lama daripada menjawab kalau jawabanmu salah.
 
 ---
 
@@ -79,6 +84,23 @@ Kalimat berisi kata target -> pilihan kata yang mirip -> cari yang paling sesuai
 kata target -> makna dalam kalimat -> opsi paling dekat
 ```
 
+
+### Common Traps
+
+| Jebakan | Contoh |
+| --- | --- |
+| Terlalu umum | memilih kata yang mirip, tetapi kurang presisi |
+| Terkecoh rasa positif | memilih kata yang terdengar bagus seperti "menarik" |
+| Lepas konteks | memilih sinonim kamus tanpa membaca kalimat |
+
+### Review Rule
+
+Setelah menjawab, tulis:
+
+```text
+Kata ini berarti ... dalam konteks kalimat.
+```
+
 ### Practice Question
 
 **Soal**  
@@ -97,22 +119,6 @@ E. Menarik
 **Pembahasan**  
 Petunjuknya adalah "setiap klaim dapat dilacak ke sumbernya". Jadi makna yang
 dicari adalah ketelitian, bukan kecepatan atau daya tarik tulisan.
-
-### Common Traps
-
-| Jebakan | Contoh |
-| --- | --- |
-| Terlalu umum | memilih kata yang mirip, tetapi kurang presisi |
-| Terkecoh rasa positif | memilih kata yang terdengar bagus seperti "menarik" |
-| Lepas konteks | memilih sinonim kamus tanpa membaca kalimat |
-
-### Review Rule
-
-Setelah menjawab, tulis:
-
-```text
-Kata ini berarti ... dalam konteks kalimat.
-```
 
 ---
 
@@ -157,6 +163,23 @@ Contoh:
 sementara -> tidak permanen -> permanen/tetap -> tetap
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Memilih "lama" | Lama hanya durasi panjang, belum tentu permanen |
+| Memilih kata netral | Kata seperti "umum" tidak membalik makna sementara |
+| Tidak cek kalimat | Antonim terasa benar, tapi tidak cocok dengan struktur kalimat |
+
+### Review Rule
+
+Sebelum memilih jawaban, buat kalimat pendek:
+
+```text
+Kalau bukan sementara, berarti ...
+```
+
 ### Practice Question
 
 **Soal**  
@@ -175,22 +198,6 @@ E. Terbatas
 Konteks kalimat membandingkan status kebijakan yang berlaku sementara dengan
 aturan yang permanen. "Lama" bisa berarti durasi panjang, tetapi belum tentu
 berlawanan langsung dengan sementara dalam konteks status aturan.
-
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Memilih "lama" | Lama hanya durasi panjang, belum tentu permanen |
-| Memilih kata netral | Kata seperti "umum" tidak membalik makna sementara |
-| Tidak cek kalimat | Antonim terasa benar, tapi tidak cocok dengan struktur kalimat |
-
-### Review Rule
-
-Sebelum memilih jawaban, buat kalimat pendek:
-
-```text
-Kalau bukan sementara, berarti ...
-```
 
 ---
 
@@ -244,6 +251,23 @@ Contoh relasi yang sering muncul:
 | Sebab-akibat | inflasi : daya beli turun |
 | Derajat | ragu : yakin |
 
+
+### Common Traps
+
+| Jebakan | Contoh |
+| --- | --- |
+| Asosiasi bebas | peta berhubungan dengan wilayah |
+| Detail teknis | peta punya simbol |
+| Relasi terlalu luas | peta berhubungan dengan perjalanan |
+
+### Review Rule
+
+Untuk setiap analogi, wajib tulis kalimat relasi:
+
+```text
+___ digunakan untuk ___.
+```
+
 ### Practice Question
 
 **Soal**  
@@ -261,22 +285,6 @@ E. Simbol
 Kamus digunakan untuk menemukan makna. Peta digunakan untuk menemukan arah.
 Relasinya adalah alat bantu dan informasi yang dicari. "Wilayah" dan "simbol"
 berhubungan dengan peta, tetapi bukan pasangan fungsi yang sejajar.
-
-### Common Traps
-
-| Jebakan | Contoh |
-| --- | --- |
-| Asosiasi bebas | peta berhubungan dengan wilayah |
-| Detail teknis | peta punya simbol |
-| Relasi terlalu luas | peta berhubungan dengan perjalanan |
-
-### Review Rule
-
-Untuk setiap analogi, wajib tulis kalimat relasi:
-
-```text
-___ digunakan untuk ___.
-```
 
 ---
 
@@ -305,6 +313,23 @@ Kalimat akademik -> istilah target -> opsi definisi yang mirip-mirip
 istilah target -> petunjuk sebelum/sesudah istilah -> makna paling sesuai
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Pilih arti yang terdengar ilmiah | Ilmiah belum tentu sesuai konteks |
+| Abaikan kata sekitar | Petunjuk utama justru ada di kalimat |
+| Terlalu literal | Istilah abstrak perlu dibaca dari fungsi kalimat |
+
+### Review Rule
+
+Tulis ulang kalimat dengan kata sederhana:
+
+```text
+validitasnya bergantung pada data = kekuatan alasannya bergantung pada data
+```
+
 ### Practice Question
 
 **Soal**  
@@ -322,22 +347,6 @@ E. Jumlah data yang dikumpulkan
 **Pembahasan**  
 Kata "validitas" dalam konteks argumen berkaitan dengan apakah alasan yang
 dipakai sah, kuat, dan dapat dipertanggungjawabkan.
-
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Pilih arti yang terdengar ilmiah | Ilmiah belum tentu sesuai konteks |
-| Abaikan kata sekitar | Petunjuk utama justru ada di kalimat |
-| Terlalu literal | Istilah abstrak perlu dibaca dari fungsi kalimat |
-
-### Review Rule
-
-Tulis ulang kalimat dengan kata sederhana:
-
-```text
-validitasnya bergantung pada data = kekuatan alasannya bergantung pada data
-```
 
 ---
 
@@ -366,6 +375,23 @@ Teks pendek -> diminta gagasan utama -> opsi detail vs opsi rangkuman
 fungsi paragraf -> pesan utama -> opsi yang merangkum seluruh teks
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Detail saja | Benar tetapi tidak merangkum teks |
+| Terlalu ekstrem | Memakai "selalu", "hanya", atau "tidak dapat" |
+| Membalik arah teks | Teks mendukung data dengan syarat, bukan menolak data total |
+
+### Review Rule
+
+Setelah memilih jawaban, tanyakan:
+
+```text
+Apakah opsi ini mencakup seluruh teks, bukan cuma satu kalimat?
+```
+
 ### Practice Question
 
 **Teks**  
@@ -390,22 +416,6 @@ E. Keputusan pemerintah daerah tidak dapat dibuat dengan data digital.
 **Pembahasan**  
 Teks mengakui manfaat data mobilitas, lalu menekankan perlunya survei lapangan
 untuk mencegah bias. Opsi C menangkap dua sisi utama itu.
-
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Detail saja | Benar tetapi tidak merangkum teks |
-| Terlalu ekstrem | Memakai "selalu", "hanya", atau "tidak dapat" |
-| Membalik arah teks | Teks mendukung data dengan syarat, bukan menolak data total |
-
-### Review Rule
-
-Setelah memilih jawaban, tanyakan:
-
-```text
-Apakah opsi ini mencakup seluruh teks, bukan cuma satu kalimat?
-```
 
 ---
 
@@ -435,6 +445,19 @@ Teks berisi dua/lebih fakta -> diminta kesimpulan paling kuat
 data eksplisit -> hubungan antar data -> simpulan aman tanpa tambahan baru
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Menambah rekomendasi | Teks belum tentu menyuruh menghapus wawancara |
+| Terlalu kuat | "Tidak memiliki manfaat apa pun" terlalu ekstrem |
+| Mengabaikan kontras | Teks punya sisi positif dan batasannya |
+
+### Review Rule
+
+Coret opsi yang tidak bisa dibuktikan dengan kalimat tertentu dalam teks.
+
 ### Practice Question
 
 **Teks**  
@@ -458,18 +481,6 @@ E. Nilai rapor selalu merugikan pendaftar dari sekolah non-unggulan.
 **Pembahasan**  
 Pendaftar dari sekolah non-unggulan meningkat, tetapi penerima akhir belum
 berubah signifikan. Opsi B menyimpulkan tepat tanpa menambah rekomendasi baru.
-
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Menambah rekomendasi | Teks belum tentu menyuruh menghapus wawancara |
-| Terlalu kuat | "Tidak memiliki manfaat apa pun" terlalu ekstrem |
-| Mengabaikan kontras | Teks punya sisi positif dan batasannya |
-
-### Review Rule
-
-Coret opsi yang tidak bisa dibuktikan dengan kalimat tertentu dalam teks.
 
 ---
 
@@ -499,6 +510,23 @@ Premis -> kesimpulan kebijakan/penilaian -> tanya asumsi yang diperlukan
 premis -> kesimpulan -> premis tersembunyi yang membuat lompatan itu sah
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Opsi yang terdengar baik | Preferensi peserta tidak membuktikan efektivitas |
+| Opsi terlalu absolut | "Semua", "selalu", atau "tidak pernah" jarang diperlukan |
+| Opsi di luar argumen | Biaya kelas tidak menjawab hubungan kelas dan kelulusan |
+
+### Review Rule
+
+Tes asumsi dengan negasi:
+
+```text
+Kalau asumsi ini salah, apakah argumen runtuh?
+```
+
 ### Practice Question
 
 **Soal**  
@@ -520,22 +548,6 @@ E. Kelas persiapan daring selalu lebih murah daripada kelas tatap muka.
 Argumen mengubah korelasi menjadi dasar kewajiban. Agar kuat, perlu diasumsikan
 bahwa kelas persiapan memang membantu kelulusan, bukan sekadar diikuti oleh
 peserta yang sejak awal lebih siap.
-
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Opsi yang terdengar baik | Preferensi peserta tidak membuktikan efektivitas |
-| Opsi terlalu absolut | "Semua", "selalu", atau "tidak pernah" jarang diperlukan |
-| Opsi di luar argumen | Biaya kelas tidak menjawab hubungan kelas dan kelulusan |
-
-### Review Rule
-
-Tes asumsi dengan negasi:
-
-```text
-Kalau asumsi ini salah, apakah argumen runtuh?
-```
 
 ---
 
@@ -585,6 +597,19 @@ Beberapa premis jika-maka -> ada negasi akibat -> cari kesimpulan pasti
 ubah klaim menjadi simbol -> pakai modus ponens/tollens -> hindari membalik akibat
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Membalik akibat | Dari Q tidak boleh langsung menyimpulkan P |
+| Lupa salah satu cabang | `B atau C` harus dicek dua-duanya |
+| Menyimpulkan lebih jauh | Tidak A bukan berarti semua hal lain pasti naik/turun |
+
+### Review Rule
+
+Tulis simbol pendek untuk setiap premis sebelum melihat opsi.
+
 ### Practice Question
 
 **Soal**  
@@ -628,18 +653,6 @@ Tidak D
 Dari `B -> D` dan `Tidak D`, diperoleh `Tidak B`. Sekarang `Tidak B` dan
 `Tidak C`. Karena akibat wajib dari A tidak muncul, maka `Tidak A`.
 
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Membalik akibat | Dari Q tidak boleh langsung menyimpulkan P |
-| Lupa salah satu cabang | `B atau C` harus dicek dua-duanya |
-| Menyimpulkan lebih jauh | Tidak A bukan berarti semua hal lain pasti naik/turun |
-
-### Review Rule
-
-Tulis simbol pendek untuk setiap premis sebelum melihat opsi.
-
 ---
 
 ## Num09 - Pernyataan Benar/Salah
@@ -667,6 +680,23 @@ Teks informasi -> tanya pernyataan yang pasti benar/salah
 pilihan jawaban -> cocokkan ke teks -> coret yang terlalu kuat/menambah info
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Kata absolut | "Semua" dan "wajib" tidak muncul di teks |
+| Larangan baru | Tidak ada larangan menulis proposal |
+| Cakupan berubah | Teks tentang mentoring, bukan semua proposal kampus |
+
+### Review Rule
+
+Untuk setiap opsi, beri label:
+
+```text
+eksplisit / terlalu kuat / menambah info / tidak relevan
+```
+
 ### Practice Question
 
 **Teks**  
@@ -690,22 +720,6 @@ E. Kampus X hanya menerima proposal dari mahasiswa tahun pertama.
 **Pembahasan**  
 Opsi C dinyatakan langsung oleh teks. Opsi lain menambah kewajiban, larangan,
 atau cakupan yang tidak disebutkan.
-
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Kata absolut | "Semua" dan "wajib" tidak muncul di teks |
-| Larangan baru | Tidak ada larangan menulis proposal |
-| Cakupan berubah | Teks tentang mentoring, bukan semua proposal kampus |
-
-### Review Rule
-
-Untuk setiap opsi, beri label:
-
-```text
-eksplisit / terlalu kuat / menambah info / tidak relevan
-```
 
 ---
 
@@ -734,6 +748,23 @@ Teks berisi hubungan + batasan -> tanya kesimpulan paling tepat
 hubungan yang disebut teks -> batasan/pengecualian -> kesimpulan paling aman
 ```
 
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Menolak total | Teks tidak bilang jadwal tidak berguna |
+| Memastikan sebab | Teks justru bilang sebab-akibat belum pasti |
+| Membuat aturan baru | Larangan jadwal tidak didukung teks |
+
+### Review Rule
+
+Pilih kesimpulan yang paling "aman":
+
+```text
+tidak terlalu kuat, tidak menambah data, dan memuat batasan teks
+```
+
 ### Practice Question
 
 **Teks**  
@@ -759,33 +790,6 @@ Teks menyebut kecenderungan, lalu memberi catatan bahwa motivasi awal mungkin
 menjadi faktor lain. Kesimpulan paling aman adalah mengakui hubungan tanpa
 memastikan sebab-akibat.
 
-### Common Traps
-
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Menolak total | Teks tidak bilang jadwal tidak berguna |
-| Memastikan sebab | Teks justru bilang sebab-akibat belum pasti |
-| Membuat aturan baru | Larangan jadwal tidak didukung teks |
-
-### Review Rule
-
-Pilih kesimpulan yang paling "aman":
-
-```text
-tidak terlalu kuat, tidak menambah data, dan memuat batasan teks
-```
-
 ---
 
-## Grind Plan
 
-| Urutan | Fokus | Target | Output |
-| --- | --- | --- | --- |
-| 01-04 | Kata dan relasi | Nomor 01-04 | Catatan pola relasi dan kosakata yang salah |
-| 05-10 | Bacaan dan argumen | Nomor 05-10 | Catatan jenis jebakan pilihan jawaban |
-
-Aturan waktu:
-
-- Nomor 01-04: 60-90 detik per soal.
-- Nomor 05-10: 2-3 menit per soal.
-- Review wajib lebih lama daripada menjawab kalau jawabanmu salah.
