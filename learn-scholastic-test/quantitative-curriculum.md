@@ -1506,6 +1506,8 @@ Tidak keduanya:
 ![[Pasted image 20260502225629.png]]
 
 ![[Pasted image 20260502225738.png]]
+
+![[Pasted image 20260502230204.png]]
 ### Practice Question
 
 **Soal**  

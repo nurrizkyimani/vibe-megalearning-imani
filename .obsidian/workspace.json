@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7926f3818ecc460d",
+        "id": "f6bf594ff79e2754",
         "type": "tabs",
         "children": [
           {
-            "id": "5dbd8e5309f3c38c",
+            "id": "a39384767a78ee5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,12 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "5dbd8e5309f3c38c",
+  "active": "a39384767a78ee5d",
   "lastOpenFiles": [
-    "Pasted image 20260502225738.png",
-    "Pasted image 20260502225629.png",
-    "learn-scholastic-test/problem-solving-curriculum.md",
+    "learn-scholastic-test/Attachments/Pasted image 20260502225629.png",
     "learn-scholastic-test/quantitative-curriculum.md",
+    "learn-scholastic-test/Attachments/Pasted image 20260502230204.png",
+    "learn-scholastic-test/Attachments",
+    "learn-scholastic-test/Attachments/Pasted image 20260502225738.png",
+    "learn-scholastic-test/problem-solving-curriculum.md",
     "learn-scholastic-test/verbal-curriculum.md",
     "learn-scholastic-test/verbal-questions.md",
     "learn-scholastic-test/quantitative-questions.md",
