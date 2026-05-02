@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn-scholastic-test/verbal-curriculum.md",
-                "mode": "preview",
+                "file": "learn-scholastic-test/quantitative-curriculum.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "verbal-curriculum"
+              "title": "quantitative-curriculum"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learn-scholastic-test/verbal-curriculum.md",
+                "file": "learn-scholastic-test/quantitative-curriculum.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for verbal-curriculum"
+              "title": "Backlinks for quantitative-curriculum"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learn-scholastic-test/verbal-curriculum.md",
+                "file": "learn-scholastic-test/quantitative-curriculum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from verbal-curriculum"
+              "title": "Outgoing links from quantitative-curriculum"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learn-scholastic-test/verbal-curriculum.md",
+                "file": "learn-scholastic-test/quantitative-curriculum.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of verbal-curriculum"
+              "title": "Outline of quantitative-curriculum"
             }
           }
         ],
@@ -185,11 +185,13 @@
   },
   "active": "5dbd8e5309f3c38c",
   "lastOpenFiles": [
-    "learn-scholastic-test/verbal-questions.md",
-    "learn-scholastic-test/verbal-curriculum.md",
-    "learn-scholastic-test/quantitative-curriculum.md",
-    "learn-scholastic-test/quantitative-questions.md",
+    "Pasted image 20260502225738.png",
+    "Pasted image 20260502225629.png",
     "learn-scholastic-test/problem-solving-curriculum.md",
+    "learn-scholastic-test/quantitative-curriculum.md",
+    "learn-scholastic-test/verbal-curriculum.md",
+    "learn-scholastic-test/verbal-questions.md",
+    "learn-scholastic-test/quantitative-questions.md",
     "learn-scholastic-test/problem-solving-questions.md",
     "learn-linear-programming/README.md",
     "learn-distributed-consensus-system/README.md"

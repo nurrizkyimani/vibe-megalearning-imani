@@ -78,13 +78,21 @@ Hanya IPK = IPK - (IPK dan aktif)
 ### Pattern of Question
 
 ```text
-Total responden -> jumlah A -> jumlah B -> jumlah A dan B -> tanya hanya A/B atau persen
+Total responden -> jumlah A -> jumlah B -> irisan atau tidak keduanya -> tanya hanya A/B atau persen
 ```
 
 ### Pattern to Answer
 
 ```text
 identifikasi total, A, B, irisan -> pilih rumus hanya/gabungan -> ubah ke persen jika diminta
+```
+
+Jika yang diketahui adalah **tidak keduanya**, cari dulu minimal salah satu:
+
+```text
+Minimal salah satu = Total - Tidak keduanya
+Irisan = A + B - Minimal salah satu
+Hanya A = A - Irisan
 ```
 
 ### Common Traps
@@ -144,6 +152,114 @@ Persentase dari total mahasiswa:
 ```
 
 Jadi jawabannya adalah `20%`.
+
+**Latihan tambahan - Hanya A dari data tidak keduanya**
+
+**Soal 1**  
+Dari 80 peserta pelatihan, diketahui 45 peserta menguasai Excel, 38 peserta
+menguasai SQL, dan 12 peserta tidak menguasai keduanya. Berapa banyak peserta
+yang **hanya menguasai Excel**?
+
+A. 19  
+B. 25  
+C. 30  
+D. 35  
+E. 45
+
+**Soal 2**  
+Dari 100 karyawan, 60 karyawan bisa berbahasa Inggris, 45 karyawan bisa
+berbahasa Mandarin, dan 20 karyawan tidak bisa keduanya. Berapa banyak karyawan
+yang **hanya bisa bahasa Inggris**?
+
+A. 25  
+B. 30  
+C. 35  
+D. 40  
+E. 45
+
+**Soal 3**  
+Dalam sebuah kelas berisi 50 siswa, 28 siswa mengikuti klub Matematika, 24 siswa
+mengikuti klub Sains, dan 8 siswa tidak mengikuti kedua klub tersebut. Berapa
+banyak siswa yang **hanya mengikuti klub Matematika**?
+
+A. 10  
+B. 14  
+C. 18  
+D. 20  
+E. 22
+
+**Soal 4**  
+Dari 120 pelamar, 70 pelamar memiliki sertifikat data analyst, 55 pelamar
+memiliki sertifikat project management, dan 25 pelamar tidak memiliki kedua
+sertifikat tersebut. Berapa banyak pelamar yang **hanya memiliki sertifikat data
+analyst**?
+
+A. 25  
+B. 30  
+C. 35  
+D. 40  
+E. 45
+
+**Soal 5**  
+Dari 90 mahasiswa, 52 mahasiswa mengikuti organisasi kampus, 40 mahasiswa
+mengikuti kegiatan relawan, dan 18 mahasiswa tidak mengikuti keduanya. Berapa
+banyak mahasiswa yang **hanya mengikuti organisasi kampus**?
+
+A. 20  
+B. 25  
+C. 30  
+D. 32  
+E. 35
+
+**Pembahasan Soal 1**  
+
+```text
+Minimal salah satu = 80 - 12 = 68
+Irisan = 45 + 38 - 68 = 15
+Hanya Excel = 45 - 15 = 30
+```
+
+Jawaban: **C. 30**
+
+**Pembahasan Soal 2**  
+
+```text
+Minimal salah satu = 100 - 20 = 80
+Irisan = 60 + 45 - 80 = 25
+Hanya Inggris = 60 - 25 = 35
+```
+
+Jawaban: **C. 35**
+
+**Pembahasan Soal 3**  
+
+```text
+Minimal salah satu = 50 - 8 = 42
+Irisan = 28 + 24 - 42 = 10
+Hanya Matematika = 28 - 10 = 18
+```
+
+Jawaban: **C. 18**
+
+**Pembahasan Soal 4**  
+
+```text
+Minimal salah satu = 120 - 25 = 95
+Irisan = 70 + 55 - 95 = 30
+Hanya Data Analyst = 70 - 30 = 40
+```
+
+Jawaban: **D. 40**
+
+**Pembahasan Soal 5**  
+
+```text
+Minimal salah satu = 90 - 18 = 72
+Irisan = 52 + 40 - 72 = 20
+Hanya Organisasi = 52 - 20 = 32
+```
+
+Jawaban: **D. 32**
 
 ---
 
