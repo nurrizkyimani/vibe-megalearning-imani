@@ -297,12 +297,37 @@ nilai B = 5x
 nilai C = 8x
 ```
 
+Varian campuran replacement:
+
+```text
+Total wadah = T
+Rasio awal X : Y = 5 : 3
+X awal = 5/8 T
+Y awal = 3/8 T
+```
+
+Kalau sebagian campuran diambil, komposisi yang keluar mengikuti rasio campuran
+saat itu. Setelah diganti bahan murni, hanya bahan yang ditambahkan yang berubah
+sesuai penggantinya.
+
+Pola cepat:
+
+```text
+ambil campuran -> kurangi X dan Y sesuai rasio awal
+ganti Y murni -> tambahkan hanya ke Y
+bentuk rasio akhir -> selesaikan T
+```
+
 ### What the practice shows
 
 1. Nomor 04 melatih persentase beruntun.
 2. Nomor 05 melatih rasio menjadi nilai nyata.
 3. Nomor 06 melatih persamaan dua variabel.
 4. Nomor 07 melatih soal cerita jarak-waktu-kecepatan.
+
+Latihan tambahan nomor 05 juga melatih pembagian keuntungan proporsional dan
+campuran replacement, yaitu saat sebagian campuran diambil lalu diganti bahan
+murni.
 
 ### Review rule
 

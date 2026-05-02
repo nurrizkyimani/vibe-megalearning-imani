@@ -194,6 +194,92 @@ Jumlah uang mereka:
 
 Jadi jumlah uang mereka adalah `Rp450.000`.
 
+**Latihan tambahan**  
+Tiga investor, Pak Andi, Pak Budi, dan Pak Candra, masing-masing
+menginvestasikan Rp200 juta, Rp300 juta, dan Rp500 juta dalam sebuah usaha.
+Setahun kemudian, usaha menghasilkan keuntungan total Rp240 juta yang dibagi
+proporsional berdasarkan modal. Berapa keuntungan yang diterima Pak Budi?
+
+A. Rp52 juta  
+B. Rp60 juta  
+C. Rp72 juta  
+D. Rp80 juta
+
+**Jawaban: C. Rp72 juta**
+
+**Pembahasan**  
+Total investasi:
+
+```text
+200 + 300 + 500 = 1.000 juta
+```
+
+Porsi Pak Budi:
+
+```text
+300 / 1.000 = 30%
+```
+
+Keuntungan Pak Budi:
+
+```text
+30% x 240 juta = 72 juta
+```
+
+Jadi keuntungan yang diterima Pak Budi adalah `Rp72 juta`.
+
+**Latihan tambahan**  
+Sebuah wadah berisi campuran bahan kimia X dan Y dengan rasio `5 : 3`. Jika 16
+liter campuran tersebut diambil dan diganti dengan 16 liter bahan kimia Y murni,
+rasio bahan kimia X dan Y di dalam wadah bergeser menjadi `3 : 5`. Berapa liter
+kapasitas total wadah tersebut?
+
+A. 32 liter  
+B. 40 liter  
+C. 48 liter  
+D. 56 liter  
+E. 64 liter
+
+**Jawaban: B. 40 liter**
+
+**Pembahasan**  
+Misalkan kapasitas total wadah adalah `T` liter.
+
+Rasio awal `X : Y = 5 : 3`, jadi:
+
+```text
+X awal = 5/8 T
+Y awal = 3/8 T
+```
+
+Saat 16 liter campuran diambil, yang keluar mengikuti rasio `5 : 3`:
+
+```text
+X yang keluar = 5/8 x 16 = 10
+Y yang keluar = 3/8 x 16 = 6
+```
+
+Setelah itu, 16 liter Y murni ditambahkan. Maka:
+
+```text
+X akhir = 5/8 T - 10
+Y akhir = 3/8 T - 6 + 16
+        = 3/8 T + 10
+```
+
+Rasio akhir `X : Y = 3 : 5`:
+
+```text
+(5/8 T - 10) / (3/8 T + 10) = 3/5
+5(5/8 T - 10) = 3(3/8 T + 10)
+25/8 T - 50 = 9/8 T + 30
+16/8 T = 80
+2T = 80
+T = 40
+```
+
+Jadi kapasitas total wadah adalah `40 liter`.
+
 ---
 
 ## NQ06 - Aljabar Sederhana
@@ -291,4 +377,3 @@ Maka mereka bertemu pada:
 ```text
 08.30 + 1 jam 30 menit = 10.00
 ```
-
