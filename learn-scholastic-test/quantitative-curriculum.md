@@ -16,32 +16,32 @@ numerik yang sering muncul di Tes Bakat Skolastik.
 
 ## Curriculum Table
 
-| #   | Topic             | Core Concept                                             | LPDP Usage                                                 |
-| --- | ----------------- | -------------------------------------------------------- | ---------------------------------------------------------- |
-| 01  | Deret Angka       | Pola bilangan dari selisih, rasio, atau operasi berulang | Menebak angka berikutnya dengan pola yang paling konsisten |
-| 02  | Aritmetika Dasar  | Urutan operasi tambah, kurang, kali, bagi                | Menghitung cepat tanpa salah prioritas operasi             |
-| 03  | Pecahan & Desimal | Konversi dan operasi pecahan/desimal                     | Menyamakan bentuk angka agar hitungan lebih ringan         |
-| 04  | Persentase        | Diskon, kenaikan, penurunan, dan faktor pengali          | Menghindari jebakan persen beruntun                        |
-| 05  | Perbandingan      | Rasio, proporsi, skala, dan campuran                     | Mengubah bagian rasio menjadi nilai nyata                  |
-| 06  | Aljabar Sederhana | Persamaan satu/dua variabel                              | Membuat model dari informasi numerik                       |
-| 07  | Laju, Jarak, dan Pekerjaan | Kecepatan relatif, laju gabungan, dan waktu kerja | Menghitung susul-menyusul, saling mendekat, dan proyek bersama |
-| 08  | Geometri Dasar    | Luas segitiga sama sisi, lingkaran dalam, dan selisih area | Menghitung daerah gabungan atau sisa dalam bentuk akar dan pi |
-| 09  | Kombinatorika Dasar | Kombinasi tanpa urutan dan syarat minimal                | Menghitung banyak susunan tim atau pilihan terbatas        |
-| 10  | Aritmetika Modular | Siklus sisa pembagian pada pangkat besar                 | Menjawab eksponen besar tanpa menghitung nilainya penuh    |
-| 11  | Peluang Dasar     | Ruang sampel dan jumlah kejadian                         | Menghitung peluang dadu, kartu, atau pilihan acak          |
-| 12  | Himpunan Kuantitatif | Gabungan, irisan, hanya A, dan tidak keduanya          | Menjawab survei dua kategori dengan data overlap           |
-| 13  | Rata-rata dan Statistik | Total nilai, jumlah data, dan perubahan rata-rata    | Menghitung rata-rata baru setelah data ditambah/dihapus    |
+| #   | Topic                      | Core Concept                                               | LPDP Usage                                                     |
+| --- | -------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
+| 01  | Deret Angka                | Pola bilangan dari selisih, rasio, atau operasi berulang   | Menebak angka berikutnya dengan pola yang paling konsisten     |
+| 02  | Aritmetika Dasar           | Urutan operasi tambah, kurang, kali, bagi                  | Menghitung cepat tanpa salah prioritas operasi                 |
+| 03  | Pecahan & Desimal          | Konversi dan operasi pecahan/desimal                       | Menyamakan bentuk angka agar hitungan lebih ringan             |
+| 04  | Persentase                 | Diskon, kenaikan, penurunan, dan faktor pengali            | Menghindari jebakan persen beruntun                            |
+| 05  | Perbandingan               | Rasio, proporsi, skala, dan campuran                       | Mengubah bagian rasio menjadi nilai nyata                      |
+| 06  | Aljabar Sederhana          | Persamaan satu/dua variabel                                | Membuat model dari informasi numerik                           |
+| 07  | Laju, Jarak, dan Pekerjaan | Kecepatan relatif, laju gabungan, dan waktu kerja          | Menghitung susul-menyusul, saling mendekat, dan proyek bersama |
+| 08  | Geometri Dasar             | Luas segitiga sama sisi, lingkaran dalam, dan selisih area | Menghitung daerah gabungan atau sisa dalam bentuk akar dan pi  |
+| 09  | Kombinatorika Dasar        | Kombinasi tanpa urutan dan syarat minimal                  | Menghitung banyak susunan tim atau pilihan terbatas            |
+| 10  | Aritmetika Modular         | Siklus sisa pembagian pada pangkat besar                   | Menjawab eksponen besar tanpa menghitung nilainya penuh        |
+| 11  | Peluang Dasar              | Ruang sampel dan jumlah kejadian                           | Menghitung peluang dadu, kartu, atau pilihan acak              |
+| 12  | Himpunan Kuantitatif       | Gabungan, irisan, hanya A, dan tidak keduanya              | Menjawab survei dua kategori dengan data overlap               |
+| 13  | Rata-rata dan Statistik    | Total nilai, jumlah data, dan perubahan rata-rata          | Menghitung rata-rata baru setelah data ditambah/dihapus        |
 
 ---
 
 ## Grind Plan
 
-| Urutan | Fokus                  | Target      | Output                                                 |
-| ------ | ---------------------- | ----------- | ------------------------------------------------------ |
-| 01-03  | Pola dan operasi angka | Nomor 01-03 | Catatan pola, urutan operasi, dan konversi             |
-| 04-05  | Persen dan rasio       | Nomor 04-05 | Catatan basis persen, total bagian, dan model campuran |
-| 06-08  | Aljabar, laju, dan geometri | Nomor 06-08 | Catatan persamaan, timeline, satuan, dan rumus luas    |
-| 09-13  | Topik matematika lanjutan | Nomor 09-13 | Catatan kombinasi, modulo, peluang, himpunan, dan rata-rata |
+| Urutan | Fokus                       | Target      | Output                                                      |
+| ------ | --------------------------- | ----------- | ----------------------------------------------------------- |
+| 01-03  | Pola dan operasi angka      | Nomor 01-03 | Catatan pola, urutan operasi, dan konversi                  |
+| 04-05  | Persen dan rasio            | Nomor 04-05 | Catatan basis persen, total bagian, dan model campuran      |
+| 06-08  | Aljabar, laju, dan geometri | Nomor 06-08 | Catatan persamaan, timeline, satuan, dan rumus luas         |
+| 09-13  | Topik matematika lanjutan   | Nomor 09-13 | Catatan kombinasi, modulo, peluang, himpunan, dan rata-rata |
 
 Aturan waktu:
 
@@ -908,13 +908,13 @@ hitung progres awal -> cari sisa jarak/proyek -> pakai kecepatan atau laju relat
 
 ### Common Traps
 
-| Jebakan                   | Kenapa Salah                                                    |
-| ------------------------- | --------------------------------------------------------------- |
-| Abaikan jeda mulai        | Mobil pertama sudah menempuh jarak sebelum mobil kedua bergerak |
-| Pakai satu kecepatan saja | Saat saling mendekat, kecepatannya dijumlah                     |
-| Salah jenis relatif       | Saling mendekat dijumlah, menyusul dikurangkan                  |
+| Jebakan                   | Kenapa Salah                                                     |
+| ------------------------- | ---------------------------------------------------------------- |
+| Abaikan jeda mulai        | Mobil pertama sudah menempuh jarak sebelum mobil kedua bergerak  |
+| Pakai satu kecepatan saja | Saat saling mendekat, kecepatannya dijumlah                      |
+| Salah jenis relatif       | Saling mendekat dijumlah, menyusul dikurangkan                   |
 | Lupa durasi kerja berbeda | Pekerja yang keluar lebih awal tidak boleh dihitung sampai akhir |
-| Salah ubah jam            | 1,5 jam berarti 1 jam 30 menit                                  |
+| Salah ubah jam            | 1,5 jam berarti 1 jam 30 menit                                   |
 
 ### Review Rule
 
@@ -1173,12 +1173,12 @@ hitung luas segitiga -> hitung jari-jari incircle -> hitung luas lingkaran -> ku
 
 ### Common Traps
 
-| Jebakan | Kenapa Salah |
-| --- | --- |
+| Jebakan                            | Kenapa Salah                                     |
+| ---------------------------------- | ------------------------------------------------ |
 | Memakai diameter sebagai jari-jari | Luas lingkaran harus memakai `r`, bukan diameter |
-| Lupa kuadrat pada jari-jari | `pi r^2`, bukan `pi r` |
-| Salah rumus segitiga sama sisi | Luasnya `s^2 sqrt(3) / 4` |
-| Salah membaca yang ditanya | Yang diminta `a + b`, bukan luas akhirnya saja |
+| Lupa kuadrat pada jari-jari        | `pi r^2`, bukan `pi r`                           |
+| Salah rumus segitiga sama sisi     | Luasnya `s^2 sqrt(3) / 4`                        |
+| Salah membaca yang ditanya         | Yang diminta `a + b`, bukan luas akhirnya saja   |
 
 ### Review Rule
 
@@ -1289,11 +1289,11 @@ pecah komposisi valid -> hitung kombinasi tiap kasus -> jumlahkan
 
 ### Common Traps
 
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Memakai permutasi | Urutan anggota tim tidak penting |
-| Memasukkan kasus invalid | Tim 5 pria melanggar syarat minimal 1 wanita |
-| Tidak memecah kasus | Syarat "minimal" biasanya punya lebih dari satu komposisi |
+| Jebakan                  | Kenapa Salah                                              |
+| ------------------------ | --------------------------------------------------------- |
+| Memakai permutasi        | Urutan anggota tim tidak penting                          |
+| Memasukkan kasus invalid | Tim 5 pria melanggar syarat minimal 1 wanita              |
+| Tidak memecah kasus      | Syarat "minimal" biasanya punya lebih dari satu komposisi |
 
 ### Review Rule
 
@@ -1372,10 +1372,10 @@ cari siklus sisa -> ubah eksponen menjadi kelipatan siklus + sisa -> ambil sisa 
 
 ### Common Traps
 
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Menghitung pangkat penuh | Angka terlalu besar dan tidak perlu |
-| Salah panjang siklus | Sisa eksponen jadi salah |
+| Jebakan                  | Kenapa Salah                                                          |
+| ------------------------ | --------------------------------------------------------------------- |
+| Menghitung pangkat penuh | Angka terlalu besar dan tidak perlu                                   |
+| Salah panjang siklus     | Sisa eksponen jadi salah                                              |
 | Sisa eksponen 0 dibaca 1 | Jika eksponen habis dibagi siklus, pakai elemen terakhir dalam siklus |
 
 ### Review Rule
@@ -1452,11 +1452,11 @@ tentukan ruang sampel -> daftar kejadian valid -> sederhanakan pecahan
 
 ### Common Traps
 
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Tidak menghitung pasangan terurut | `(2,5)` dan `(5,2)` sama-sama mungkin |
-| Salah daftar bilangan prima | Dalam jumlah dua dadu, prima yang mungkin adalah 2, 3, 5, 7, 11 |
-| Lupa menyederhanakan pecahan | Jawaban opsi biasanya bentuk paling sederhana |
+| Jebakan                           | Kenapa Salah                                                    |
+| --------------------------------- | --------------------------------------------------------------- |
+| Tidak menghitung pasangan terurut | `(2,5)` dan `(5,2)` sama-sama mungkin                           |
+| Salah daftar bilangan prima       | Dalam jumlah dua dadu, prima yang mungkin adalah 2, 3, 5, 7, 11 |
+| Lupa menyederhanakan pecahan      | Jawaban opsi biasanya bentuk paling sederhana                   |
 
 ### Review Rule
 
@@ -1506,6 +1506,51 @@ Peluang:
 15/36 = 5/12
 ```
 
+**Latihan Tambahan - Peluang Tanpa Pengembalian**
+![alt text](image.png)
+**Soal**  
+Sebuah kantong gelap berisi 4 kelereng merah, 5 kelereng biru, dan 3 kelereng
+hijau. Jika 3 kelereng diambil satu per satu secara acak tanpa pengembalian,
+berapakah peluang terambilnya kelereng dengan warna yang berbeda-beda semua?
+
+A. 1/11  
+B. 3/22  
+C. 5/22  
+D. 3/11  
+E. 6/11
+
+**Jawaban: D. 3/11**
+
+**Pembahasan**  
+Total kelereng di awal:
+
+```text
+4 + 5 + 3 = 12 kelereng
+```
+
+Peluang terambilnya 3 warna berbeda dalam satu urutan spesifik, misalnya
+merah-biru-hijau:
+
+```text
+4/12 x 5/11 x 3/10 = 60/1320 = 1/22
+```
+
+Karena kelereng diambil satu per satu, urutan warnanya bisa beragam. Untuk 3
+warna berbeda, jumlah susunan urutan adalah:
+
+```text
+3! = 3 x 2 x 1 = 6 susunan
+```
+
+Peluang total:
+
+```text
+1/22 x 6 = 6/22 = 3/11
+```
+
+Jadi peluang terambilnya tiga kelereng dengan warna berbeda-beda semua adalah
+`3/11`.
+
 ---
 
 ## Num12 - Himpunan Kuantitatif
@@ -1548,11 +1593,11 @@ cari minimal satu kategori -> cari irisan -> kurangi dari kategori yang ditanya
 
 ### Common Traps
 
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Mengira tidak keduanya sama dengan hanya bukan A | Tidak keduanya berarti bukan A dan bukan B |
-| Lupa irisan dihitung dua kali | Anggota yang bisa dua bahasa masuk ke dua kelompok |
-| Salah jawab total A | Yang ditanya sering "hanya A", bukan semua A |
+| Jebakan                                          | Kenapa Salah                                       |
+| ------------------------------------------------ | -------------------------------------------------- |
+| Mengira tidak keduanya sama dengan hanya bukan A | Tidak keduanya berarti bukan A dan bukan B         |
+| Lupa irisan dihitung dua kali                    | Anggota yang bisa dua bahasa masuk ke dua kelompok |
+| Salah jawab total A                              | Yang ditanya sering "hanya A", bukan semua A       |
 
 ### Review Rule
 
@@ -1647,11 +1692,11 @@ ubah rata-rata awal ke total -> bentuk total baru dan jumlah baru -> setarakan d
 
 ### Common Traps
 
-| Jebakan | Kenapa Salah |
-| --- | --- |
-| Mengurangi rata-rata dengan rata-rata | Yang bisa dikurangkan adalah total nilai |
-| Lupa jumlah data berubah | Penyebut rata-rata baru tidak sama dengan penyebut awal |
-| Salah tanda saat data dihapus | Data yang ditarik harus dikurangi dari total lama |
+| Jebakan                               | Kenapa Salah                                            |
+| ------------------------------------- | ------------------------------------------------------- |
+| Mengurangi rata-rata dengan rata-rata | Yang bisa dikurangkan adalah total nilai                |
+| Lupa jumlah data berubah              | Penyebut rata-rata baru tidak sama dengan penyebut awal |
+| Salah tanda saat data dihapus         | Data yang ditarik harus dikurangi dari total lama       |
 
 ### Review Rule
 
