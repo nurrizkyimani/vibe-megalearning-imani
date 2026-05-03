@@ -17,7 +17,7 @@ into DSA patterns that commonly appear in interviews and LeetCode practice.
 
 | #   | Topic                   | Core Concept                                           | LeetCode Usage                                                 |
 | --- | ----------------------- | ------------------------------------------------------ | -------------------------------------------------------------- |
-| 01  | Array and Hash Map      | Fast lookup, frequency, index, and value pairs         | Two Sum, Contains Duplicate, Group Anagrams                    |
+| 01  | Array and Hash Map      | Fast lookup, frequency, index, and value pairs         | Two Sum, Contains Duplicate, Group Anagrams, Max Palindromes   |
 | 02  | Two Pointers            | Two indices moving in the same or opposite directions  | Valid Palindrome, Two Sum II, Container With Most Water        |
 | 03  | Sliding Window          | Dynamic windows for subarrays or substrings            | Best Time to Buy and Sell Stock, Longest Substring, Min Window |
 | 04  | Stack                   | Last-in-first-out behavior for pairs, order, and undo  | Valid Parentheses, Min Stack, Daily Temperatures               |
@@ -64,7 +64,9 @@ section if no existing domain fits.
 ```
 
 ```
-visualize image of that solusion iwth the quesiton; focus on the visiual cue ; not make the iamge full code; show visual of the movement; so that incan imagine it
+visualize image of that solusion iwth the quesiton; focus on the visiual cue ; not make the iamge full code; show visual of the movement; so that incan imagine it, focus on making the visual easy to understand easy to bayangin; the goals of the user to eundersnts easily
+
+use chatgpt image, generate image; generate image
 
 ```
 
@@ -126,9 +128,12 @@ Key = ...
 Value = ...
 ```
 
-### Practice Question
+### Practice Questions
 
-**Question**  
+#### 1. Two Sum
+
+**Question**
+
 Given `nums = [2, 7, 11, 15]` and `target = 9`, return the indices of two
 numbers whose sum equals the target.
 
@@ -139,6 +144,46 @@ The number `2` needs complement `7`. When the scan reaches `7`, the map already
 stores `2` at index `0`, so the answer is index `0` and index `1`.
 
 Optimal complexity: `O(n)` time and `O(n)` space.
+
+#### 2. 3035. Maximum Palindromes After Operations
+
+**Question**
+
+Given `words = ["abbb", "ba", "aa"]`, you may swap any character from any word
+with any character from any other word. Return the maximum number of words that
+can become palindromes.
+
+**Answer: `3`**
+
+**Pattern to Answer**
+
+Because any character can be swapped globally, the original word order does not
+matter. Only two things matter:
+
+```text
+character frequencies -> total available pairs
+word lengths -> pair slots needed by each palindrome
+```
+
+Steps:
+
+1. Count all characters across all words.
+2. Convert counts into available pairs with `count / 2`.
+3. Sort word lengths from shortest to longest.
+4. For each length, spend `length / 2` pairs.
+5. Count the word if there are enough pairs.
+
+**Explanation**
+
+The words have character counts `a:4` and `b:4`, so there are `2 + 2 = 4`
+available pairs. Sorted lengths are `[2, 2, 4]`, which need `1`, `1`, and `2`
+pairs. All pair slots can be filled after swaps arrange the letters as
+palindromes. One possible result is `["bbbb", "aa", "aa"]`.
+
+Optimal complexity: `O(totalChars + n log n)` time and `O(n)` extra space for
+the lengths.
+
+![](Pasted%20image%2020260503220940.png)
 
 ---
 

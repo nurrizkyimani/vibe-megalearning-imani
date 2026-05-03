@@ -23,6 +23,7 @@ Expected output includes demo results for:
 | Problem | Solution 1 | Solution 2 |
 | --- | --- | --- |
 | Two Sum | Brute force | Hash map |
+| 3035. Maximum Palindromes After Operations | Pair budget | Min slots |
 | Valid Palindrome | Clean and reverse | Two pointers |
 | Best Time to Buy and Sell Stock | Brute force | One pass |
 | Valid Anagram | Sorting | Frequency count |

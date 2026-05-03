@@ -8,6 +8,7 @@ import java.util.Queue;
 public class LeetcodeDsaSolutions {
     public static void main(String[] args) {
         runTwoSumDemo();
+        runMaximumPalindromesDemo();
         runPalindromeDemo();
         runStockProfitDemo();
         runAnagramDemo();
@@ -53,6 +54,71 @@ public class LeetcodeDsaSolutions {
         }
 
         return new int[] {-1, -1};
+    }
+
+    private static void runMaximumPalindromesDemo() {
+        String[] words = {"abbb", "ba", "aa"};
+
+        System.out.println("3035. Maximum Palindromes After Operations");
+        System.out.println("Solution 1 - Pair budget: " + maximumPalindromesByPairBudget(words));
+        System.out.println("Solution 2 - Min slots:   " + maximumPalindromesByMinSlots(words));
+        System.out.println();
+    }
+
+    private static int maximumPalindromesByPairBudget(String[] words) {
+        int[] counts = new int[26];
+        int[] lengths = new int[words.length];
+
+        for (int i = 0; i < words.length; i++) {
+            lengths[i] = words[i].length();
+            for (int j = 0; j < words[i].length(); j++) {
+                counts[words[i].charAt(j) - 'a']++;
+            }
+        }
+
+        int pairs = 0;
+        for (int count : counts) {
+            pairs += count / 2;
+        }
+
+        Arrays.sort(lengths);
+
+        int palindromes = 0;
+        for (int length : lengths) {
+            int neededPairs = length / 2;
+            if (pairs < neededPairs) {
+                break;
+            }
+            pairs -= neededPairs;
+            palindromes++;
+        }
+
+        return palindromes;
+    }
+
+    private static int maximumPalindromesByMinSlots(String[] words) {
+        int[] counts = new int[26];
+        PriorityQueue<Integer> pairSlots = new PriorityQueue<>();
+
+        for (String word : words) {
+            pairSlots.add(word.length() / 2);
+            for (int i = 0; i < word.length(); i++) {
+                counts[word.charAt(i) - 'a']++;
+            }
+        }
+
+        int pairs = 0;
+        for (int count : counts) {
+            pairs += count / 2;
+        }
+
+        int palindromes = 0;
+        while (!pairSlots.isEmpty() && pairs >= pairSlots.peek()) {
+            pairs -= pairSlots.remove();
+            palindromes++;
+        }
+
+        return palindromes;
     }
 
     private static void runPalindromeDemo() {
