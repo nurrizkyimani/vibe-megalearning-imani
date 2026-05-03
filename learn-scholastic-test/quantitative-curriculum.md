@@ -1064,6 +1064,67 @@ T = 18
 
 Jadi total waktu proyek adalah 18 hari.
 
+**Latihan 4 - Kolaborasi Kerja**
+
+**Soal**  
+Pekerja P dapat membangun sebuah fondasi bata dalam waktu 12 hari, sementara
+Pekerja Q dapat menyelesaikannya dalam waktu 18 hari. Pekerja R diklaim bekerja
+dua kali lebih cepat dibandingkan rata-rata efisiensi Pekerja P dan Pekerja Q.
+Jika mereka bertiga bekerja secara simultan dari awal, dalam berapa hari fondasi
+tersebut akan selesai?
+
+A. 3 hari  
+B. 3,6 hari  
+C. 4,2 hari  
+D. 4,5 hari  
+E. 4,8 hari
+
+**Jawaban: B. 3,6 hari**
+![[Pasted image 20260503074347.png]]
+
+**Pembahasan**  
+Kecepatan harian adalah bagian pekerjaan yang selesai per hari.
+
+```text
+V_P = 1/12 pekerjaan/hari
+V_Q = 1/18 pekerjaan/hari
+```
+
+Rata-rata kecepatan P dan Q:
+
+```text
+((1/12) + (1/18)) / 2
+= ((3/36) + (2/36)) / 2
+= (5/36) / 2
+= 5/72
+```
+
+Kecepatan R adalah dua kali rata-rata tersebut:
+
+```text
+V_R = 2 x 5/72
+    = 10/72
+    = 5/36
+```
+
+Kecepatan gabungan ketiganya:
+
+```text
+V_total = V_P + V_Q + V_R
+        = 3/36 + 2/36 + 5/36
+        = 10/36
+        = 5/18
+```
+
+Total waktu adalah invers dari kecepatan gabungan:
+
+```text
+waktu = 18/5
+      = 3,6 hari
+```
+
+Jadi fondasi akan selesai dalam 3,6 hari.
+
 ---
 
 ## Num08 - Geometri Dasar
