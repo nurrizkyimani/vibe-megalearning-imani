@@ -1080,10 +1080,7 @@ D. 4,5 hari
 E. 4,8 hari
 
 **Jawaban: B. 3,6 hari**
-
-
-![[Pasted image 20260503074347.png]]
-
+![](Pasted%20image%2020260503074914.png)
 
 
 **Pembahasan**  
