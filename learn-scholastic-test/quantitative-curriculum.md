@@ -1080,7 +1080,11 @@ D. 4,5 hari
 E. 4,8 hari
 
 **Jawaban: B. 3,6 hari**
+
+
 ![[Pasted image 20260503074347.png]]
+
+
 
 **Pembahasan**  
 Kecepatan harian adalah bagian pekerjaan yang selesai per hari.
