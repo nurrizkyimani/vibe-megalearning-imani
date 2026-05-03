@@ -183,7 +183,8 @@ palindromes. One possible result is `["bbbb", "aa", "aa"]`.
 Optimal complexity: `O(totalChars + n log n)` time and `O(n)` extra space for
 the lengths.
 
-![](Pasted%20image%2020260503221415.png)
+![](images/Pasted%20image%2020260503221415.png)
+
 ---
 
 ## Num02 - Two Pointers
