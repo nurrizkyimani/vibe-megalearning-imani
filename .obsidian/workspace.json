@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn-leetcode-dsa/leetcode-curriculum.md",
-                "mode": "source",
+                "file": "learn-scholastic-test/quantitative-curriculum.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "leetcode-curriculum"
+              "title": "quantitative-curriculum"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learn-leetcode-dsa/leetcode-curriculum.md",
+                "file": "learn-scholastic-test/quantitative-curriculum.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of leetcode-curriculum"
+              "title": "Outline of quantitative-curriculum"
             }
           }
         ],
@@ -185,6 +185,8 @@
   },
   "active": "a39384767a78ee5d",
   "lastOpenFiles": [
+    "learn-scholastic-test/problem-solving-curriculum.md",
+    "learn-leetcode-dsa/leetcode-curriculum.md",
     "learn-leetcode-dsa/images/Pasted image 20260503221415.png",
     "learn-leetcode-dsa/images",
     "learn-leetcode-dsa/Attachments/Pasted image 20260503220940.png",
@@ -198,7 +200,6 @@
     "learn-scholastic-test/Attachments/Pasted image 20260502225738.png",
     "learn-scholastic-test/Attachments/Pasted image 20260502230204.png",
     "learn-scholastic-test/Attachments",
-    "learn-scholastic-test/problem-solving-curriculum.md",
     "learn-scholastic-test/verbal-curriculum.md",
     "learn-scholastic-test/verbal-questions.md",
     "learn-scholastic-test/quantitative-questions.md",
