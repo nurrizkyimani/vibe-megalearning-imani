@@ -30,6 +30,7 @@ dimodelkan dari soal cerita.
 | 10 | Diagram Alur | Pecah proses menjadi tahap input, proses, dan output | Mengikuti aturan seleksi, distribusi, atau perubahan status |
 | 11 | Kecukupan Informasi Praktis | Tentukan data mana yang benar-benar diperlukan untuk menjawab | Menghindari memakai angka yang tidak relevan dalam soal cerita |
 | 12 | Eliminasi Opsi | Coret opsi yang melanggar syarat sebelum hitung detail | Mempercepat soal dengan banyak pilihan dan batasan |
+| 13 | Analisis Akar Masalah dan Bottleneck | Temukan titik penyebab utama yang membatasi hasil | Memilih intervensi yang menyasar masalah paling menentukan |
 
 ---
 
@@ -39,13 +40,13 @@ dimodelkan dari soal cerita.
 | --- | --- | --- | --- |
 | 01-03 | Model dasar cerita | Nomor 01-03 | Catatan irisan, sisa target, dan perubahan bertahap |
 | 04-08 | Optimasi dan jadwal | Nomor 04-08 | Catatan batas, satuan, dan pilihan terbaik |
-| 09-12 | Tabel, alur, dan eliminasi | Nomor 09-12 | Catatan data relevan dan opsi yang gugur |
+| 09-13 | Tabel, alur, eliminasi, dan bottleneck | Nomor 09-13 | Catatan data relevan, opsi gugur, dan akar masalah |
 
 Aturan waktu:
 
 - Nomor 01-03: 90-120 detik per soal.
 - Nomor 04-08: 2-3 menit per soal.
-- Nomor 09-12: 2-3 menit per soal.
+- Nomor 09-13: 2-3 menit per soal.
 - Review wajib menulis letak salah: salah baca kata kunci, salah model, salah satuan, salah eliminasi, atau salah hitung.
 
 ---
@@ -495,6 +496,42 @@ Konsumsi = 19
 
 Jadi relawan di pos konsumsi adalah `19`.
 
+**Latihan Tambahan - Alokasi Program Kerja**
+
+**Soal**
+Sebuah himpunan mahasiswa LPDP di kampus memiliki saldo kas Rp15 juta. Mereka
+ingin melaksanakan program kerja akhir tahun.
+
+- P1: Seminar Karir Internasional, biaya Rp8 juta, dampak karir tinggi.
+- P2: Lomba Esai Nasional, biaya Rp6 juta, dampak karir rendah.
+- P3: Workshop Penulisan Jurnal Q1, biaya Rp7 juta, dampak karir tinggi.
+- P4: Malam Keakraban Alumni, biaya Rp5 juta, dampak karir sedang.
+
+Himpunan diwajibkan memilih kombinasi program dengan total biaya tidak melebihi
+Rp15 juta, dan harus menghasilkan dampak karir setinggi mungkin dengan
+mengutamakan jumlah program berdampak tinggi. Kombinasi mana yang paling
+optimal?
+
+A. P1 dan P2
+B. P1 dan P3
+C. P2, P3, dan P4
+D. P1 dan P4
+E. P3 dan P4
+
+**Jawaban: B. P1 dan P3**
+
+**Pembahasan**
+Targetnya adalah memaksimalkan jumlah program berdampak tinggi tanpa melewati
+saldo Rp15 juta.
+
+```text
+P1 + P3 = 8 juta + 7 juta = 15 juta
+```
+
+Kombinasi ini menghasilkan dua program berdampak tinggi dan tepat berada pada
+batas anggaran. Kombinasi `P2 + P3 + P4` bernilai Rp18 juta sehingga melanggar
+batas. Kombinasi `P1 + P4` hanya menghasilkan satu program berdampak tinggi.
+
 ---
 
 ## Num05 - Optimasi Sederhana
@@ -659,6 +696,73 @@ Lalu D:
 ```text
 Total = 20 + 30 + 25 = 75 menit
 ```
+
+**Latihan Tambahan - Constraint Scheduling**
+
+**Soal**
+Sebuah tim riset membagi proyek menjadi 5 tahapan K, L, M, N, dan O yang harus
+dikerjakan satu per satu secara berurutan dari tahap 1 hingga 5. Aturan
+pengerjaannya:
+
+- Tahap L harus dikerjakan sebelum M.
+- Tahap N harus dikerjakan tepat setelah K selesai.
+- Tahap O tidak boleh menjadi tahap pertama maupun tahap terakhir.
+- Tahap M harus selesai sebelum tahap K dimulai.
+
+Berdasarkan aturan di atas, pernyataan mana yang pasti benar?
+
+A. Tahap L dikerjakan pada urutan ke-2
+B. Tahap M dikerjakan pada urutan ke-3
+C. Tahap K dikerjakan pada urutan ke-4
+D. Tahap O dikerjakan pada urutan ke-3
+E. Tahap N dikerjakan pada urutan ke-4
+
+**Jawaban: C. Tahap K dikerjakan pada urutan ke-4**
+
+**Pembahasan**
+Aturan dasar memberi rantai:
+
+```text
+L -> M -> K -> N
+```
+
+Tahap K dan N harus menempel karena N tepat setelah K. Empat tahap itu sudah
+memakai 4 slot. Tahap O harus disisipkan, tetapi tidak boleh di slot 1 atau 5.
+Skenario valid:
+
+```text
+L - O - M - K - N
+L - M - O - K - N
+```
+
+Pada kedua susunan valid, K selalu berada di urutan ke-4. Posisi O dan M bisa
+berubah, tetapi posisi K tetap.
+
+**Latihan Tambahan - Urutan Tindakan Krisis**
+
+**Soal**
+Seorang awardee tiba di negara tujuan pada tengah malam musim dingin. Sesampainya
+di alamat apartemen yang disewanya via aplikasi pihak ketiga secara online, ia
+menyadari bahwa alamat tersebut fiktif dan ia tidak memiliki tempat tinggal. Ia
+berada di jalanan bersama koper-kopernya.
+
+Berdasarkan mitigasi krisis, langkah pertama yang paling logis dan harus segera
+dilakukan adalah:
+
+A. Mengirim email aduan resmi ke pihak kepolisian siber negara tersebut.
+B. Menghubungi aplikasi pihak ketiga untuk meminta refund uang sewa.
+C. Mencari dan memesan penginapan darurat hotel atau hostel 24 jam terdekat malam itu juga.
+D. Membuat laporan pertanggungjawaban penipuan ke Customer Service LPDP.
+E. Menumpang tidur di stasiun kereta terdekat hingga pagi tiba.
+
+**Jawaban: C. Mencari dan memesan penginapan darurat**
+
+**Pembahasan**
+Dalam manajemen krisis, ancaman fisik langsung harus diselesaikan terlebih
+dahulu. Kondisinya terjadi tengah malam, musim dingin, dan awardee berada di
+jalanan bersama koper. Langkah administratif seperti laporan polisi, refund, dan
+pelaporan ke LPDP penting, tetapi bukan langkah pertama saat keselamatan fisik
+belum aman.
 
 ---
 
@@ -855,6 +959,89 @@ Selisih = 40.000 - 37.500 = 2.500
 
 Jadi Paket B lebih murah `Rp2.500 per sesi`.
 
+**Latihan Tambahan - Trade-off Prioritas Keputusan**
+
+**Soal**
+Seorang pendaftar harus memilih calon dosen pembimbing untuk riset doktoralnya.
+Kondisi pendaftar: ia wajib lulus tepat waktu maksimal 4 tahun karena aturan
+sponsor, dan ia menggunakan metodologi baru sehingga butuh bimbingan intensif
+minimal 2 kali sebulan. Pendanaan riset sudah ditanggung penuh oleh LPDP.
+
+Opsi profesor:
+
+- Prof A: pakar nomor 1 di dunia, bimbingan 1 kali sebulan, memiliki dana hibah
+  riset melimpah.
+- Prof B: keahlian metodologi sudah usang, bimbingan 4 kali sebulan, tidak ada
+  dana hibah.
+- Prof C: pakar tingkat menengah, bimbingan 2 kali sebulan, memastikan
+  mahasiswanya selalu lulus dalam 3,5 tahun.
+- Prof D: pakar nomor 2 di dunia, tidak pernah bimbingan langsung karena
+  diwakilkan asisten, memiliki lab tercanggih.
+
+Siapa supervisor yang paling kompromistis dan sesuai dengan prioritas pendaftar?
+
+A. Prof A
+B. Prof B
+C. Prof C
+D. Prof D
+E. Semua sama layak
+
+**Jawaban: C. Prof C**
+
+**Pembahasan**
+Prioritas utama adalah lulus tepat waktu dan bimbingan minimal 2 kali sebulan.
+Pendanaan bukan isu karena sudah ditanggung LPDP.
+
+```text
+Prof A gagal intensitas bimbingan.
+Prof B gagal kesesuaian metodologi.
+Prof D gagal bimbingan langsung.
+Prof C memenuhi bimbingan 2 kali sebulan dan target lulus 3,5 tahun.
+```
+
+Jadi Prof C adalah pilihan paling seimbang terhadap prioritas pendaftar.
+
+**Latihan Tambahan - Matriks Risiko**
+
+**Soal**
+LPDP menyadari tingginya tingkat stres akademik awardee di luar negeri. Divisi
+kesejahteraan merumuskan 4 program intervensi dengan dua variabel: biaya
+eksekusi dan tingkat aksesibilitas bagi mahasiswa.
+
+- Program I: konseling psikolog langsung via penerbangan ke negara tujuan.
+  Biaya sangat tinggi, aksesibilitas rendah.
+- Program II: berlangganan platform tele-therapy 24/7 khusus mahasiswa. Biaya
+  sedang, aksesibilitas sangat tinggi.
+- Program III: pelatihan coping stress 1 jam saat pembekalan keberangkatan.
+  Biaya sangat rendah, aksesibilitas tinggi, efek jangka panjang rendah.
+- Program IV: subsidi uang rekreasi tahunan sebesar GBP500 per mahasiswa. Biaya
+  sangat tinggi, aksesibilitas tinggi.
+
+Jika LPDP berprinsip memberi bantuan psikologis yang responsif dan bisa diakses
+kapan saja saat mahasiswa burnout tanpa menghancurkan tata kelola anggaran,
+program mana yang paling rasional?
+
+A. Program I
+B. Program II
+C. Program III
+D. Program IV
+E. Gabungan Program I dan IV
+
+**Jawaban: B. Program II**
+
+**Pembahasan**
+Kriteria utamanya adalah responsif, bisa diakses kapan saja, dan biaya tetap
+logis.
+
+```text
+Program I gagal biaya dan akses.
+Program III murah, tetapi tidak responsif saat krisis di luar negeri.
+Program IV gagal biaya.
+Program II punya akses 24/7 dan biaya sedang.
+```
+
+Maka Program II adalah keputusan strategis paling rasional.
+
 ---
 
 ## Num09 - Tabel Kasus
@@ -927,6 +1114,39 @@ Keduanya = 38 - 32 = 6
 
 Jadi siswa yang mengikuti keduanya adalah `6`.
 
+**Latihan Tambahan - Konsistensi Data**
+
+**Soal**
+Perhatikan data fiktif seleksi beasiswa berikut:
+
+| Tahun | Kuota Target | Pendaftar | Lolos Seleksi Admin | Lolos Wawancara Final |
+| --- | --- | --- | --- | --- |
+| 2021 | 2.000 | 10.000 | 6.000 | 1.500 |
+| 2022 | 2.000 | 12.000 | 8.000 | 1.800 |
+| 2023 | 2.500 | 15.000 | 9.000 | 2.500 |
+| 2024 | 3.000 | 14.000 | 10.000 | 2.800 |
+
+Berdasarkan tabel di atas, pernyataan mana yang pasti benar?
+
+A. Jumlah pendaftar beasiswa mengalami peningkatan setiap tahunnya.
+B. Angka kelulusan dari tahap Admin ke tahap Final selalu berada di atas 30%.
+C. Pemerintah selalu berhasil memenuhi Kuota Target beasiswa setiap tahun.
+D. Jumlah penerima beasiswa final tertinggi terjadi ketika jumlah pendaftar tidak berada di angka puncaknya.
+E. Penurunan pendaftar terbesar terjadi pada rentang tahun 2022 ke 2023.
+
+**Jawaban: D. Jumlah penerima beasiswa final tertinggi terjadi ketika jumlah pendaftar tidak berada di angka puncaknya.**
+
+**Pembahasan**
+Cek pernyataan satu per satu:
+
+```text
+A salah: pendaftar turun dari 15.000 pada 2023 ke 14.000 pada 2024.
+B salah: 2021 final/admin = 1.500/6.000 = 25%, tidak di atas 30%.
+C salah: 2021 dan 2022 tidak memenuhi kuota target.
+D benar: final tertinggi 2.800 terjadi pada 2024, sedangkan pendaftar tertinggi 15.000 terjadi pada 2023.
+E salah: 2022 ke 2023 justru naik, bukan turun.
+```
+
 ---
 
 ## Num10 - Diagram Alur
@@ -994,6 +1214,36 @@ Lolos wawancara = 60 x 40% = 24
 ```
 
 Jadi yang lolos ke tahap wawancara adalah `24`.
+
+**Latihan Tambahan - Flowchart Policy**
+
+**Soal**
+Aturan pemindahan universitas tujuan pasca-penetapan beasiswa:
+
+1. Pendaftar wajib memiliki Letter of Acceptance baru.
+2. Jurusan baru wajib linier dengan jurusan saat mendaftar.
+3. Jika pindah ke negara yang berbeda, wajib mendapat persetujuan Panelis
+   Direksi.
+4. Jika hanya pindah universitas di negara yang sama, cukup persetujuan Reviewer
+   Akademik.
+
+Rudi adalah awardee tujuan Universitas Melbourne, Australia. Ia berhasil
+mendapat LoA linier di Universitas Sydney, Australia. Kepada siapakah Rudi
+paling tepat mengajukan persetujuan akhir sesuai regulasi?
+
+A. Panelis Direksi saja
+B. Reviewer Akademik saja
+C. Direktur LPDP dan Panelis Direksi
+D. Panelis Direksi dan Reviewer Akademik
+E. Tidak memerlukan persetujuan karena negaranya sama
+
+**Jawaban: B. Reviewer Akademik saja**
+
+**Pembahasan**
+Syarat LoA dan linier sudah terpenuhi. Rudi pindah dari Melbourne ke Sydney,
+yang masih berada di negara yang sama, yaitu Australia. Berdasarkan aturan nomor
+4, pindah universitas di negara yang sama cukup mendapat persetujuan Reviewer
+Akademik.
 
 ---
 
@@ -1071,6 +1321,38 @@ Total mingguan = 460
 
 Target 500 tidak tercapai. Tanpa pernyataan 3, masih ada kemungkinan produksi
 Minggu yang belum diketahui. Jadi ketiga pernyataan diperlukan.
+
+**Latihan Tambahan - Menentukan Data Krusial**
+
+**Soal**
+Kementerian mengeluarkan kebijakan baru:
+
+```text
+Seluruh awardee wajib menyelesaikan kelas pembekalan kepemimpinan secara online
+alih-alih tatap muka untuk menghemat anggaran negara sebesar Rp10 miliar per
+tahun.
+```
+
+Data evaluasi bulan pertama menunjukkan skor ujian akademik peserta PK online
+sama tingginya dengan peserta PK tatap muka tahun lalu.
+
+Untuk mengevaluasi apakah kebijakan PK online benar-benar efektif dan tidak
+merusak esensi program, data tambahan krusial apa yang paling dibutuhkan oleh
+pengambil kebijakan?
+
+A. Rincian penghematan biaya sewa gedung dan katering.
+B. Data durasi waktu koneksi internet peserta selama sesi materi.
+C. Hasil survei metrik ikatan networking dan kedekatan emosional antar awardee, sebelum dan sesudah kebijakan.
+D. Daftar latar belakang pendidikan pemateri yang diundang.
+E. Jumlah awardee yang menggunakan laptop dibanding smartphone.
+
+**Jawaban: C. Hasil survei metrik ikatan networking dan kedekatan emosional antar awardee, sebelum dan sesudah kebijakan.**
+
+**Pembahasan**
+Skor akademik hanya mengukur pemahaman materi. Esensi pembekalan kepemimpinan
+tatap muka sering mencakup jejaring sosial dan bonding antar awardee. Untuk
+menilai apakah esensi program rusak atau tidak, data tentang networking dan
+kedekatan emosional adalah informasi paling krusial.
 
 ---
 
@@ -1154,3 +1436,213 @@ Baris terakhir:
 ```
 
 Jadi jawabannya adalah `12`.
+
+**Latihan Tambahan - Filter Syarat Berlapis**
+
+**Soal**
+Seorang pendaftar Beasiswa LPDP Reguler harus memilih satu universitas tujuan.
+Kriteria kelayakan yang diwajibkan oleh pendaftar dan sponsor:
+
+- Universitas harus masuk Top 50 Dunia.
+- Biaya kuliah maksimal GBP30.000 per tahun.
+- Syarat IELTS universitas tidak boleh lebih tinggi dari skor pendaftar, yaitu
+  7.0.
+- Universitas tidak mewajibkan skor GRE; GRE opsional atau tidak butuh masih
+  boleh.
+
+Data universitas:
+
+- Univ V: rank 25, biaya GBP28.000, IELTS minimum 7.5, tidak butuh GRE.
+- Univ W: rank 40, biaya GBP25.000, IELTS minimum 7.0, wajib GRE.
+- Univ X: rank 10, biaya GBP35.000, IELTS minimum 6.5, tidak butuh GRE.
+- Univ Y: rank 45, biaya GBP29.000, IELTS minimum 6.5, GRE opsional.
+- Univ Z: rank 55, biaya GBP20.000, IELTS minimum 6.0, tidak butuh GRE.
+
+Universitas mana yang memenuhi semua syarat kelayakan?
+
+A. Univ V
+B. Univ W
+C. Univ X
+D. Univ Y
+E. Univ Z
+
+**Jawaban: D. Univ Y**
+
+**Pembahasan**
+Coret opsi yang gagal satu syarat saja:
+
+```text
+V gagal IELTS karena butuh 7.5, pendaftar hanya 7.0.
+W gagal karena wajib GRE.
+X gagal biaya karena GBP35.000 melebihi batas GBP30.000.
+Z gagal rank karena rank 55, tidak masuk Top 50.
+Y lolos semua: rank 45, biaya GBP29.000, IELTS 6.5, GRE opsional.
+```
+
+**Latihan Tambahan - Eliminasi Bersyarat Tersembunyi**
+
+**Soal**
+Panitia LPDP membagi 6 peserta R, S, T, U, V, dan W ke dalam dua grup diskusi.
+Grup 1 dan Grup 2 masing-masing beranggotakan tepat 3 orang. Aturan pembagian:
+
+- R dan S tidak boleh berada di grup yang sama.
+- T mutlak harus satu grup dengan V.
+- W tidak boleh masuk ke Grup 1.
+
+Jika R ditempatkan di Grup 2, siapa susunan anggota yang pasti mengisi Grup 1?
+
+A. S, T, V
+B. R, T, V
+C. S, U, W
+D. S, T, U
+E. T, V, W
+
+**Jawaban: A. S, T, V**
+
+**Pembahasan**
+R sudah berada di Grup 2. Karena R dan S tidak boleh satu grup, maka S pasti
+masuk Grup 1. W tidak boleh masuk Grup 1, maka W pasti masuk Grup 2.
+
+```text
+Grup 1 = S, ?, ?
+Grup 2 = R, W, ?
+```
+
+T dan V harus selalu bersama. Mereka membutuhkan dua slot kosong, sedangkan Grup
+2 hanya punya satu slot kosong. Maka T dan V tidak mungkin berada di Grup 2 dan
+harus masuk Grup 1.
+
+```text
+Grup 1 = S, T, V
+Grup 2 = R, W, U
+```
+
+Jadi anggota Grup 1 yang pasti adalah S, T, dan V.
+
+---
+
+## Num13 - Analisis Akar Masalah dan Bottleneck
+
+### The Problem
+
+Soal akar masalah dan bottleneck meminta kamu mencari titik yang paling
+menentukan hasil. Data lain mungkin terlihat penting, tetapi jika data itu
+sudah aman, jangan jadikan sebagai target intervensi.
+
+### The Concept
+
+Akar masalah adalah penyebab utama yang membuat target gagal. Bottleneck adalah
+tahap paling sempit dalam proses berurutan, sehingga kapasitas proses secara
+keseluruhan dibatasi oleh titik itu.
+
+### Pattern of Question
+
+```text
+tujuan/proses -> beberapa fakta -> satu titik penghambat utama -> pilih intervensi
+```
+
+### Pattern to Answer
+
+```text
+coret faktor yang sudah aman -> cari faktor yang paling membatasi -> pilih solusi yang langsung menyasar faktor itu
+```
+
+### Common Traps
+
+| Jebakan | Kenapa Salah |
+| --- | --- |
+| Menyerang faktor yang sudah aman | Dana, pembimbing, atau kualitas bisa saja bukan masalah |
+| Memilih solusi hukuman | Hukuman tidak menyelesaikan penyebab proses macet |
+| Mengupgrade titik yang bukan bottleneck | Kapasitas tetap dibatasi oleh tahap paling kecil |
+
+### Review Rule
+
+Tulis:
+
+```text
+Yang sudah aman:
+Yang macet:
+Solusi yang langsung menyasar titik macet:
+```
+
+### Practice Question
+
+**Latihan 1 - Root Cause**
+
+**Soal**
+Evaluasi tahunan menunjukkan banyak awardee LPDP di Kota X mengalami
+keterlambatan kelulusan hingga 1 semester. Fakta temuan lapangan:
+
+1. Dana hidup dan dana riset selalu cair tepat waktu.
+2. Dosen pembimbing di kampus-kampus Kota X terkenal sangat responsif.
+3. Kualitas draf tesis mahasiswa tergolong sangat baik.
+4. Mahasiswa membutuhkan waktu 3 kali lipat lebih lama dari jadwal untuk
+   mengumpulkan data wawancara rumah sakit karena prosedur birokrasi komite etik
+   pemerintah daerah yang berbelit-belit.
+
+Langkah pertama yang paling tepat dilakukan oleh LPDP untuk memitigasi masalah
+ini pada awardee angkatan berikutnya adalah:
+
+A. Menaikkan besaran dana riset untuk mahasiswa di Kota X.
+B. Menekan universitas untuk mempercepat persetujuan dosen pembimbing.
+C. Menjalin MoU khusus dengan otoritas etik daerah setempat atau mewajibkan mahasiswa mengurus izin etik 6 bulan lebih awal.
+D. Memberikan sanksi pemotongan uang saku bagi mahasiswa yang telat lulus.
+E. Melarang mahasiswa mengambil topik riset kesehatan.
+
+**Jawaban: C. Menjalin MoU khusus dengan otoritas etik daerah setempat atau mewajibkan mahasiswa mengurus izin etik 6 bulan lebih awal.**
+
+**Pembahasan**
+Akar masalah tertulis pada poin 4: birokrasi komite etik pemerintah daerah.
+Dana, dosen pembimbing, dan kualitas draf tesis justru disebut aman.
+
+```text
+Yang macet = izin etik / birokrasi daerah
+Solusi langsung = MoU dengan otoritas etik atau urus izin jauh lebih awal
+```
+
+Opsi C menyasar bottleneck langsung. Opsi A, B, dan D tidak menyelesaikan titik
+macet. Opsi E terlalu ekstrem karena melarang seluruh topik kesehatan.
+
+**Latihan 2 - Bottleneck Proses**
+
+**Soal**
+Sistem pendaftaran beasiswa memiliki 3 server pemrosesan berurutan:
+
+- Server A, pembuatan akun: kapasitas 5.000 user/jam.
+- Server B, unggah dokumen: kapasitas 3.000 user/jam.
+- Server C, verifikasi AI: kapasitas 4.000 user/jam.
+
+Saat ini traffic berada di angka 2.500 user/jam, sehingga sistem berjalan
+lancar. Besok pada hari penutupan, traffic diprediksi melonjak menjadi 6.000
+user/jam. Tim IT mengupgrade Server A menjadi 7.000 user/jam dan Server C
+menjadi 6.500 user/jam. Masalah paling parah akan terjadi di:
+
+A. Server A
+B. Server B
+C. Server C
+D. Server B dan C sama parahnya
+E. Tidak ada masalah, sistem sudah diupgrade
+
+**Jawaban: B. Server B**
+
+**Pembahasan**
+Alur prosesnya berurutan:
+
+```text
+A -> B -> C
+```
+
+Dengan traffic 6.000 user/jam:
+
+```text
+Server A = 7.000, cukup untuk meloloskan 6.000 user.
+Server B = 3.000, hanya mampu memproses separuh traffic.
+Server C = 6.500, cukup untuk traffic yang masuk.
+```
+
+Server B menjadi bottleneck tunggal karena kapasitasnya paling kecil dan tidak
+diupgrade.
+
+# Draft/Note/Log
+## M5/W1/D5 - Tue, 5 May 26
+![](Pasted%20image%2020260505102550.png)

@@ -13,15 +13,92 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "learn-scholastic-test/problem-solving-curriculum.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "problem-solving-curriculum"
+            }
+          },
+          {
+            "id": "6bada03fa0b953c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "learn-scholastic-test/quantitative-curriculum.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "quantitative-curriculum"
             }
+          },
+          {
+            "id": "1c08f1d0fe435a3e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "learn-scholastic-test/images/Pasted image 20260506010259.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260506010259"
+            }
+          },
+          {
+            "id": "eae8f47780b4d7cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learn-scholastic-test/verbal-curriculum.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "verbal-curriculum"
+            }
+          },
+          {
+            "id": "689e63fcd7b49fde",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "learn-scholastic-test/images/Pasted image 20260505212452.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260505212452"
+            }
+          },
+          {
+            "id": "82fd1153ededaba8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "learn-scholastic-test/images/Pasted image 20260505205111.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260505205111"
+            }
+          },
+          {
+            "id": "118588a728f1a8e8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "learn-scholastic-test/images/Pasted image 20260505111356.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260505111356"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,24 +260,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "a39384767a78ee5d",
+  "active": "6bada03fa0b953c0",
   "lastOpenFiles": [
-    "learn-scholastic-test/problem-solving-curriculum.md",
-    "learn-leetcode-dsa/leetcode-curriculum.md",
-    "learn-leetcode-dsa/images/Pasted image 20260503221415.png",
-    "learn-leetcode-dsa/images",
-    "learn-leetcode-dsa/Attachments/Pasted image 20260503220940.png",
-    "learn-leetcode-dsa/Attachments",
+    "learn-scholastic-test/images/Pasted image 20260506012729.png",
+    "learn-scholastic-test/images/Pasted image 20260506010259.png",
     "learn-scholastic-test/quantitative-curriculum.md",
-    "learn-scholastic-test/image.png",
-    "learn-scholastic-test/Attachments/Pasted image 20260503074914.png",
-    "learn-scholastic-test/Attachments/Pasted image 20260503074347.png",
-    "learn-scholastic-test/example.md",
-    "learn-scholastic-test/Attachments/Pasted image 20260502225629.png",
-    "learn-scholastic-test/Attachments/Pasted image 20260502225738.png",
-    "learn-scholastic-test/Attachments/Pasted image 20260502230204.png",
-    "learn-scholastic-test/Attachments",
+    "learn-scholastic-test/images/Pasted image 20260505212452.png",
     "learn-scholastic-test/verbal-curriculum.md",
+    "learn-scholastic-test/scholastic-log.md",
+    "learn-scholastic-test/images/Pasted image 20260505221137.png",
+    "learn-scholastic-test/images/Pasted image 20260506002033.png",
+    "learn-scholastic-test/images/Pasted image 20260505221133.png",
+    "learn-scholastic-test/images/Pasted image 20260505205111.png",
+    "learn-scholastic-test/problem-solving-curriculum.md",
+    "learn-scholastic-test/images/Pasted image 20260505111356.png",
+    "learn-scholastic-test/images/Pasted image 20260505000527.png",
+    "learn-scholastic-test/images/Pasted image 20260505110328.png",
+    "learn-scholastic-test/images/Pasted image 20260505165322.png",
+    "learn-scholastic-test/images",
+    "learn-leetcode-dsa/leetcode-curriculum.md",
+    "learn-leetcode-dsa/images",
+    "learn-leetcode-dsa/Attachments",
+    "learn-scholastic-test/example.md",
+    "learn-scholastic-test/Attachments",
     "learn-scholastic-test/verbal-questions.md",
     "learn-scholastic-test/quantitative-questions.md",
     "learn-scholastic-test/problem-solving-questions.md",

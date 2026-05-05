@@ -1450,3 +1450,13 @@ Argumen pendukung bertumpu pada dua pilar: kebahagiaan karyawan dan penghematan
 gedung. Opsi C menyerang fondasi bisnis yang lebih besar, yaitu produktivitas
 dan inovasi. Jika output dan inovasi turun 45%, rekomendasi WFH penuh menjadi
 jauh lebih lemah meskipun ada penghematan gedung dan peningkatan kebahagiaan.
+
+# Draft/Note/Log
+## M5/W1/D4 - Mon, 4 May 26
+![](Pasted%20image%2020260504220037.png)
+
+![](Pasted%20image%2020260504230621.png)![](Pasted%20image%2020260504232630.png)
+
+![](Pasted%20image%2020260504235017.png)
+
+![](Pasted%20image%2020260505000527.png)

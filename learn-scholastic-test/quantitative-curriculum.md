@@ -404,6 +404,9 @@ Maka:
 
 ---
 
+
+
+
 ## Num04 - Persentase
 
 ### The Problem
@@ -733,6 +736,9 @@ Jadi kapasitas total wadah adalah `40 liter`.
 
 ## Num06 - Aljabar Sederhana
 
+> [!Persamaan Linear] Persamaan Linear
+> Persamaan Linear
+
 ### The Problem
 
 Soal aljabar sederhana sering salah karena peserta tidak memilih variabel yang
@@ -852,6 +858,10 @@ x^4 + 1/x^4 = 527
 ```
 
 ---
+### Visual
+![](Pasted%20image%2020260505165322.png)
+![](Pasted%20image%2020260505111356.png)
+
 
 ## Num07 - Laju, Jarak, dan Pekerjaan
 
@@ -1127,6 +1137,10 @@ waktu = 18/5
 Jadi fondasi akan selesai dalam 3,6 hari.
 
 ---
+### Visual Learning
+![](Pasted%20image%2020260505110328.png)
+
+
 
 ## Num08 - Geometri Dasar
 
@@ -1337,6 +1351,7 @@ Total = 350 + 175 = 525
 
 ---
 
+![](Pasted%20image%2020260505105057.png)
 ## Num10 - Aritmetika Modular
 
 ### The Problem
@@ -1758,3 +1773,17 @@ k = 5
 ```
 
 Jadi jumlah kandidat berskor rata-rata 60 yang ditarik adalah 5 kandidat.
+
+# Draft/Note/Log 
+
+## M5/W1/D5 - 5 May 26
+
+![](Pasted%20image%2020260506012729.png)
+
+![](Pasted%20image%2020260506010259.png)
+
+
+![](Pasted%20image%2020260506002033.png)
+![](Pasted%20image%2020260505221137.png)
+![](Pasted%20image%2020260505212452.png)
+![](Pasted%20image%2020260505205111.png)
