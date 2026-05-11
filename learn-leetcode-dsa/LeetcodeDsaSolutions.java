@@ -19,6 +19,7 @@ public class LeetcodeDsaSolutions {
         runIslandDemo();
         runKthLargestDemo();
         runClimbingStairsDemo();
+        runClimbingStairsDemo();
     }
 
     private static void runTwoSumDemo() {

@@ -4,101 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f6bf594ff79e2754",
+        "id": "5f6408983664f832",
         "type": "tabs",
         "children": [
           {
-            "id": "a39384767a78ee5d",
+            "id": "85af3dd9b750c3d1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "learn-scholastic-test/problem-solving-curriculum.md",
-                "mode": "source",
-                "source": false
+                "file": "learn-distributed-consensus-system/demos.go"
               },
               "icon": "lucide-file",
-              "title": "problem-solving-curriculum"
-            }
-          },
-          {
-            "id": "6bada03fa0b953c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn-scholastic-test/quantitative-curriculum.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "quantitative-curriculum"
-            }
-          },
-          {
-            "id": "1c08f1d0fe435a3e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "learn-scholastic-test/images/Pasted image 20260506010259.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260506010259"
-            }
-          },
-          {
-            "id": "eae8f47780b4d7cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn-scholastic-test/verbal-curriculum.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "verbal-curriculum"
-            }
-          },
-          {
-            "id": "689e63fcd7b49fde",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "learn-scholastic-test/images/Pasted image 20260505212452.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505212452"
-            }
-          },
-          {
-            "id": "82fd1153ededaba8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "learn-scholastic-test/images/Pasted image 20260505205111.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505205111"
-            }
-          },
-          {
-            "id": "118588a728f1a8e8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "learn-scholastic-test/images/Pasted image 20260505111356.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505111356"
+              "title": "demos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learn-scholastic-test/quantitative-curriculum.md",
+                "file": "learn-distributed-consensus-system/demos.go",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of quantitative-curriculum"
+              "title": "Outline of demos"
             }
           }
         ],
@@ -247,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,28 +179,35 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "6bada03fa0b953c0",
+  "active": "85af3dd9b750c3d1",
   "lastOpenFiles": [
-    "learn-scholastic-test/images/Pasted image 20260506012729.png",
-    "learn-scholastic-test/images/Pasted image 20260506010259.png",
+    "learn-go-concurrency/demos.go",
+    "learn-go-concurrency/main.go",
+    "learn-go-concurrency/README.md",
+    "learn-leetcode-dsa/images/Pasted image 20260509225250.png",
+    "learn-leetcode-dsa/leetcode-curriculum.md",
+    "learn-leetcode-dsa/README.md",
+    "learn-leetcode-dsa/LeetcodeDsaSolutions.java",
+    "learn-infra-eng/README.md",
+    "learn-infra-eng/demos.go",
+    "learn-scholastic-test/problem-solving-curriculum.md",
     "learn-scholastic-test/quantitative-curriculum.md",
+    "learn-leetcode-dsa/images/Pasted image 20260506230023.png",
+    "learn-leetcode-dsa/Attachments/Pasted image 20260503220940.png",
+    "learn-scholastic-test/images/Pasted image 20260506103341.png",
     "learn-scholastic-test/images/Pasted image 20260505212452.png",
     "learn-scholastic-test/verbal-curriculum.md",
+    "learn-scholastic-test/images/Pasted image 20260506010259.png",
+    "learn-scholastic-test/images/Pasted image 20260506091843.png",
+    "learn-scholastic-test/images/Pasted image 20260506102205.png",
+    "learn-scholastic-test/images/Pasted image 20260506012729.png",
     "learn-scholastic-test/scholastic-log.md",
     "learn-scholastic-test/images/Pasted image 20260505221137.png",
-    "learn-scholastic-test/images/Pasted image 20260506002033.png",
-    "learn-scholastic-test/images/Pasted image 20260505221133.png",
-    "learn-scholastic-test/images/Pasted image 20260505205111.png",
-    "learn-scholastic-test/problem-solving-curriculum.md",
-    "learn-scholastic-test/images/Pasted image 20260505111356.png",
-    "learn-scholastic-test/images/Pasted image 20260505000527.png",
-    "learn-scholastic-test/images/Pasted image 20260505110328.png",
-    "learn-scholastic-test/images/Pasted image 20260505165322.png",
     "learn-scholastic-test/images",
-    "learn-leetcode-dsa/leetcode-curriculum.md",
     "learn-leetcode-dsa/images",
     "learn-leetcode-dsa/Attachments",
     "learn-scholastic-test/example.md",

@@ -702,3 +702,11 @@ For `n = 5`, how many ways can you climb stairs if each move can climb `1` or
 **Explanation**  
 `dp[i] = dp[i - 1] + dp[i - 2]`. With base cases `dp[0] = 1` and `dp[1] = 1`,
 the result for `n = 5` is `8`.
+
+
+# Draft/Note/Log
+## M5/W1/D9 - Sat, 9 May 26
+![](Pasted%20image%2020260509225250.png)
+
+## M5/W1/D6 - Wed, 6 May 26
+![](Pasted%20image%2020260506230023.png)

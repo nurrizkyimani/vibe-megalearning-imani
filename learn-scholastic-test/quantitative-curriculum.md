@@ -1777,6 +1777,11 @@ Jadi jumlah kandidat berskor rata-rata 60 yang ditarik adalah 5 kandidat.
 # Draft/Note/Log 
 
 ## M5/W1/D5 - 5 May 26
+![](Pasted%20image%2020260506103341.png)
+
+![](Pasted%20image%2020260506102205.png)
+
+![](Pasted%20image%2020260506091843.png)
 
 ![](Pasted%20image%2020260506012729.png)
 
